@@ -12,7 +12,7 @@ int main(void)
 
 	i = 48;
 	j = 48;
-	while ( i <= 57)
+	while (i <= 57)
 	{
 		for (j = 48; j <= 57; j++)
 		{
