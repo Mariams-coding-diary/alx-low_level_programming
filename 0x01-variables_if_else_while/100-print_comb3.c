@@ -16,22 +16,20 @@ int main(void)
 	{
 		for (j = 48; j <= 57; j++)
 		{
-			if (i == j)
+			if (i < j)
 			{
-				continue;
+				putchar(i);
+				putchar(j);
+				if (i == 56 && j == 57)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
 			}
 			else
 			{
-				if (i < j)
-				{
-					putchar(i);
-					putchar(j);
-					if (i == 57)
-						if (j == 57)
-							break;
-					putchar(',');
-					putchar(' ');
-				}
+				continue;
 			}
 		}
 		i++;
