@@ -2,7 +2,7 @@
 #define MAIN_H
 
 static void my_function(void){
-	printf("_putchar\n");
+	printf("%d\n", "_putchar");
 }
 
 #endif
