@@ -8,6 +8,6 @@
  */
 int main(void)
 {
-	print();
+	my_function();
 	return 0;
 }
