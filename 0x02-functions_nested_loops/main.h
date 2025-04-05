@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void print(void);
+static void print(void){
+	printf("_putchar\n");
+}
 
 #endif
