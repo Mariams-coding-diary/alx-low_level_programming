@@ -3,7 +3,6 @@
 
 static void my_function(void){
 	write(1, "_putchar", 8);
-	return 0;
 }
 
 #endif
