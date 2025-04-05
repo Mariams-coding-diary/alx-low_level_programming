@@ -10,5 +10,5 @@
 int main(void)
 {
 	my_function();
-	return 0;
+	return (0);
 }
