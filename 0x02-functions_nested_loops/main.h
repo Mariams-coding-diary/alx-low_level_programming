@@ -2,7 +2,15 @@
 #define MAIN_H
 
 static void my_function(void){
-	printf("%s", "_putchar");
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 }
 
 #endif
